@@ -1,0 +1,73 @@
+# Ignore data, outputs, logs, environments, and IDE settings
+# Data and model files
+/data/
+/output/
+/logs/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environments
+tf_env/
+venv/
+ENV/
+
+# Python cache files
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# VS Code settings (optional, but recommended to share)
+.vscode/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environment variables
+.env
+
+# Logs and databases
+*.log
+*.sqlite
+logs/*
+!logs/.gitkeep
+
+# Output files
+output/*
+!output/.gitkeep
+
+# Large model files and datasets
+*.h5
+*.hdf5
+*.pkl
+*.bin
+*.xml
+*.caffemodel
+*.prototxt
+data/fer2013.csv
+data/models/*
+!data/models/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# Keep directories but not their contents
+!data/
+!logs/
+!output/
+!data/models/
+!data/processed/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
